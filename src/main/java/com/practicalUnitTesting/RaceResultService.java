@@ -12,7 +12,7 @@ public class RaceResultService {
     }
 
     public void removeSubscriber(Client client){
-        clients .remove(client);
+        clients.remove(client);
     }
 
     public void send(Message message) {
